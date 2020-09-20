@@ -40,11 +40,11 @@ function atualizarTela(){
                 
                 telaFoto.innerHTML = `
                 <div class="d1-imagem">
-                    <img src="/imagens/${inf.foto}" alt="">
+                    <img src="./${inf.foto}" alt="">
                     ${sessao[etapa].cargo}
                 </div>
                 <div class="d1-imagem pequeno">
-                    <img src="/imagens/${inf.fotovice}" alt="">
+                    <img src="./${inf.fotovice}" alt="">
                     VICE
                 </div>
                 `
@@ -65,7 +65,7 @@ function atualizarTela(){
                 
                 telaFoto.innerHTML = `
                 <div class="d1-imagem">
-                    <img src="/imagens/${inf.foto}" alt="">
+                    <img src="./${inf.foto}" alt="">
                     ${sessao[etapa].cargo}
                 </div>
                 `
